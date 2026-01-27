@@ -1,0 +1,27 @@
+{
+  "currency": "USD",
+  "description": "Whisper Large V3 language model",
+  "details": {
+    "litellm_provider": "groq",
+    "mode": "audio_transcription",
+    "object": "model",
+    "owned_by": "groq"
+  },
+  "display_name": "Whisper Large V3",
+  "name": "whisper-large-v3",
+  "schema": "offering_v1",
+  "service_type": "prerecorded_transcription",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:47.085Z",
+  "upstream_access_interfaces": {
+    "Groq API": {
+      "access_method": "http",
+      "api_key": "${ secrets.GROQ_API_KEY }",
+      "base_url": "https://api.groq.com/openai/v1/chat/completions",
+      "rate_limits": []
+    }
+  }
+}

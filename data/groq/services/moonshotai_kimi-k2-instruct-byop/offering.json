@@ -1,0 +1,38 @@
+{
+  "currency": "USD",
+  "description": "Moonshotai/Kimi K2 Instruct language model",
+  "details": {
+    "contextLength": 262144,
+    "litellm_provider": "groq",
+    "max_input_tokens": 262144,
+    "max_output_tokens": 16384,
+    "max_tokens": 16384,
+    "mode": "chat",
+    "object": "model",
+    "owned_by": "groq"
+  },
+  "display_name": "Moonshotai/Kimi K2 Instruct",
+  "name": "moonshotai/kimi-k2-instruct",
+  "payout_price": {
+    "description": "Pricing Per 1M Tokens Input/Output",
+    "input": "1",
+    "output": "3",
+    "reference": null,
+    "type": "one_million_tokens"
+  },
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:47.076Z",
+  "upstream_access_interfaces": {
+    "Groq API": {
+      "access_method": "http",
+      "api_key": "${ secrets.GROQ_API_KEY }",
+      "base_url": "https://api.groq.com/openai/v1/chat/completions",
+      "rate_limits": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+import os
+import requests
+
+API_KEY = os.getenv("API_KEY")
+
+url = "https://api.groq.com/openai/v1/audio/speech"
+
+payload = {
+    "model": "{{offering.name}}",
+    "input": "I love building and shipping new features for our users!",
+    "voice": "Fritz-PlayAI",
+    "response_format": "wav"
+}
+
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
+
+response = requests.post(url, headers=headers, json=payload)
+
+with open("tts_output.wav3", "wb") as f:
+    f.write(response.content)
+
+print("Saved as tts_output.wav")

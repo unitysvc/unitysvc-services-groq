@@ -1,0 +1,25 @@
+{
+  "currency": "USD",
+  "description": "Allam 2 7B language model",
+  "details": {
+    "object": "model",
+    "owned_by": "groq"
+  },
+  "display_name": "Allam 2 7B",
+  "name": "allam-2-7b",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:47.096Z",
+  "upstream_access_interfaces": {
+    "Groq API": {
+      "access_method": "http",
+      "api_key": "${ secrets.GROQ_API_KEY }",
+      "base_url": "https://api.groq.com/openai/v1/chat/completions",
+      "rate_limits": []
+    }
+  }
+}
