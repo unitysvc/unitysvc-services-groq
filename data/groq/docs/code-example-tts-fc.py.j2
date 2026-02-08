@@ -1,11 +1,11 @@
 import os
 import requests
 
-API_KEY = os.getenv("API_KEY")
+UNITYSVC_API_KEY = os.getenv("UNITYSVC_API_KEY")
 
 def generate_tts(input_text: str, voice: str = "Fritz-PlayAI", fmt: str = "wav"):
     url = "https://api.groq.com/openai/v1/audio/speech"
-    headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+    headers = {"Authorization": f"Bearer {UNITYSVC_API_KEY}", "Content-Type": "application/json"}
 
     payload = {
         "model": "{{offering.name}}",
