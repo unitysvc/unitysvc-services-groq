@@ -20,7 +20,7 @@ from unitysvc_services import ModelDataFetcher, ModelDataLookup, populate_from_i
 # Provider Configuration
 PROVIDER_NAME = "groq"
 PROVIDER_DISPLAY_NAME = "Groq"
-API_BASE_URL = "https://api.groq.com/openai/v1/chat/completions"
+API_BASE_URL = "https://api.groq.com/openai/v1"
 ENV_API_KEY_NAME = "GROQ_API_KEY"
 
 SCRIPT_DIR = Path(__file__).parent

@@ -17,7 +17,7 @@
   "upstream_access_interfaces": {
     "Groq API": {
       "access_method": "http",
-      "base_url": "https://api.groq.com/openai/v1/chat/completions",
+      "base_url": "https://api.groq.com/openai/v1",
       "rate_limits": []
     }
   }
