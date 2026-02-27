@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "description": "Whisper Large V3 Turbo language model",
+  "details": {
+    "litellm_provider": "groq",
+    "mode": "audio_transcription",
+    "object": "model",
+    "owned_by": "groq"
+  },
+  "display_name": "Whisper Large V3 Turbo",
+  "name": "whisper-large-v3-turbo",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "deprecated",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-02-18T23:09:48.852325Z",
+  "upstream_access_interfaces": {
+    "Groq API": {
+      "access_method": "http",
+      "base_url": "https://api.groq.com/openai/v1",
+      "rate_limits": []
+    }
+  }
+}
