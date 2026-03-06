@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "description": "Canopylabs/Orpheus Arabic Saudi language model",
+  "details": {
+    "object": "model",
+    "owned_by": "groq"
+  },
+  "display_name": "Canopylabs/Orpheus Arabic Saudi",
+  "name": "canopylabs/orpheus-arabic-saudi",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:47.080Z",
+  "upstream_access_interfaces": {
+    "Groq API": {
+      "access_method": "http",
+      "base_url": "https://api.groq.com/openai/v1",
+      "rate_limits": []
+    }
+  }
+}
