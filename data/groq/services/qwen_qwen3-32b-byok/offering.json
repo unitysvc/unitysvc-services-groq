@@ -5,7 +5,7 @@
   "currency": "USD",
   "description": "Qwen/Qwen3 32B language model",
   "details": {
-    "context_length": 40960,
+    "context_length": 131072,
     "litellm_provider": "groq",
     "max_input_tokens": 131000,
     "max_output_tokens": 131000,
