@@ -29,7 +29,7 @@
   "user_access_interfaces": {
     "provider_api": {
       "access_method": "http",
-      "base_url": "${API_GATEWAY_BASE_URL}/p/groq",
+      "base_url": "${API_GATEWAY_BASE_URL}/groq",
       "routing_key": {
         "model": "canopylabs/orpheus-v1-english"
       }
