@@ -11,12 +11,13 @@
     "max_output_tokens": 65536,
     "max_tokens": 65536,
     "metadata_sources": {
-      "context_length": "openrouter"
+      "context_length": "openrouter",
+      "parameter_count": "huggingface_safetensors"
     },
     "mode": "chat",
     "object": "model",
     "owned_by": "OpenAI",
-    "parameter_count": null
+    "parameter_count": 19707494400
   },
   "display_name": "Openai/Gpt Oss Safeguard 20B",
   "name": "openai/gpt-oss-safeguard-20b",
